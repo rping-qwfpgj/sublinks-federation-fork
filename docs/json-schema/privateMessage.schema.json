@@ -1,0 +1,29 @@
+{
+  "$id": "https://sublinks.org/privateMessage.schema.json",
+  "title": "Private Message",
+  "description": "A direct message between two Sublinks Users.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for the private message.",
+      "type": "string"
+    },
+    "content": {
+      "description": "The content of the message.",
+      "type": "string"
+    },
+    "sender_id": {
+      "description": "The author of the message.",
+      "type": "string"
+    },
+    "receiver_id": {
+      "description": "The ",
+      "type": "string"
+    },
+    "published": {
+      "description": "The date and time the comment was published.",
+      "type": "string"
+    }
+  },
+  "required": ["id", "content", "sender_id", "receiver_id", "published"]
+}
